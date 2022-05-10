@@ -19,16 +19,16 @@ nav {
     margin: 0;
 }
 
-nav ul li a {
-    text-decoration: none;
-}
-
 /* TL;DR Segment Links Styling */
-
-.tldr ul li a {
-    text-decoration: none;
-}
 
 section {
     margin: 20px;
+}
+
+footer p{
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
 }
