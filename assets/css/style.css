@@ -21,11 +21,9 @@ body {
 /* Navigation and Hero Styles */
 nav {
     padding: 10px;
-    background-color: var(--primary-color);
 }
 
 .hero {
-    padding: 100px;
     background-image: url("../images/ryan-de-hamer-M94UCAMycqA-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -33,6 +31,11 @@ nav {
     z-index: 9999;
     color: var(--secondary-text);
     margin: 0;
+}
+
+.hero div {
+    padding: 100px;
+
 }
 
 .link-list ul {
@@ -43,7 +46,7 @@ nav {
     list-style: none;
     font-size: 20px;
     margin: 0;
-    padding: 0;
+    padding: 10px 100px;
 }
 
 /* TL;DR Segment Links Styling */
@@ -53,14 +56,19 @@ section {
 }
 
 
+/* Social Media Styling Start */
+.social-container {
+    display: flex;
+}
 
+/* Social Media Styling End */
 a {
     text-decoration: none;
     color: var(--secondary-text);
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: var(--tertiary-text);
 }
 
