@@ -1,9 +1,9 @@
 :root {
-    --primary-color: rgb(26,65,97);
+    --primary-color: rgba(26, 65, 97, 0.753);
     --primary-background: rgb(41, 47, 51);
     --primary-text: rgb(169,171,179);
     --secondary-text: rgb(255, 255, 255);
-    --tertiary-text: rgb(180, 50, 219);
+    --tertiary-text: rgb(97, 164, 240);
 }
 
 * {
@@ -33,9 +33,13 @@ nav {
     margin: 0;
 }
 
-.hero div {
+.hero-info {
     padding: 100px;
+}
 
+.hero-info div {
+    background-color: rgba(0, 0, 0, 0.164);
+    padding: 10px;
 }
 
 .link-list ul {
