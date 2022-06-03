@@ -61,10 +61,7 @@ section {
 
 
 /* Social Media Styling Start */
-/* .social-container {
-    display: flex;
-    justify-content: center;
-} */
+
 
 /* Social Media Styling End */
 a {
@@ -113,6 +110,9 @@ footer p{
 @media screen and (max-width: 575px) {
     .hero {
         background-image: url("../images/ryan-de-hamer-mobile.jpg");
-        background-position: bottom;
+        background-position: right;
+    }
+    nav ul{
+        background-color: rgba(0, 0, 0, 0.164);
     }
 }
