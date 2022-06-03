@@ -15,7 +15,7 @@
 body {
     background-color: var(--primary-background);
     color: var(--primary-text);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* Navigation and Hero Styles */
@@ -61,17 +61,11 @@ section {
 
 
 /* Social Media Styling Start */
-.social-container {
+/* .social-container {
     display: flex;
-}
-
-/* .twitter-container {
-    margin: 0 50px;
-}
-
-.twitter-timeline {
-    margin: 0 100px;
+    justify-content: center;
 } */
+
 /* Social Media Styling End */
 a {
     text-decoration: none;
@@ -90,9 +84,10 @@ footer p{
     margin: 0;
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 1200px) {
     .hero {
-        background-image: url("../images/ryan-de-hamer-mobile.jpg");
+        background-image: url("../images/ryan-de-hamer-medium.jpg");
+        background-position: bottom;
     }
     .hero nav ul li {
         border: 10px rgb(255, 255, 255);
@@ -112,5 +107,12 @@ footer p{
 
     .hero-info div p {
         font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .hero {
+        background-image: url("../images/ryan-de-hamer-mobile.jpg");
+        background-position: bottom;
     }
 }
