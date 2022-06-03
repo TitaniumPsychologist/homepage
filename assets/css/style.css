@@ -89,3 +89,25 @@ footer p{
     padding: 10px;
     margin: 0;
 }
+
+@media screen and (max-width: 575px) {
+    .hero nav ul li {
+        border: 10px rgb(255, 255, 255);
+    }
+
+    .hero-info {
+        padding: 10px;
+    }
+
+    .hero-info div h1 {
+        font-size: 2em;
+    }
+
+    .hero-info div h3 {
+        font-size: 1em;
+    }
+
+    .hero-info div p {
+        font-size: 0.7em;
+    }
+}
