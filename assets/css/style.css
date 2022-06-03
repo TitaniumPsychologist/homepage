@@ -26,8 +26,8 @@ nav {
 .hero {
     background-image: url("../images/ryan-de-hamer-M94UCAMycqA-unsplash.jpg");
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    background-position: 80%;
     z-index: 9999;
     color: var(--secondary-text);
     margin: 0;
